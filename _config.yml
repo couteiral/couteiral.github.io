@@ -4,7 +4,7 @@ title: "Carlos Outeiral's blog"
 description: ""
 # logo: 'assets/images/logo.png'
 # favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
+# baseurl: /mediumish-theme-jekyll
 google_analytics: 'G-RY5LN103SB'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
