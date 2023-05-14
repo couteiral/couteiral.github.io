@@ -1,8 +1,15 @@
 ---
 layout: page
 title: About me
-permalink: /about
-comments: true
+permalink: /
+redirect_from: 
+  - /about
+  - /about-me
+  - /about_me
+  - /about-me/
+  - /about_me/
+  - /about-me.html
+  - /about_me.html
 ---
 
 <div class="row justify-content-between">
