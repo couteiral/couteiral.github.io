@@ -31,7 +31,8 @@ jobs:
       - name: Set up Ruby 2.6
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: "2.6"
+          bundle-cache: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
