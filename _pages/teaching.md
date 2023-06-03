@@ -17,7 +17,7 @@ comments: true
 <ul>
 <li><a href="/ai4proteins">Machine learning for protein structure: the past, the present and some of the future</a>, originally produced for the 58th International School in Crystallography <br>(last updated: March 2023)</li>
 <li><a href="/osgdtraining">Introduction to data science</a>, originally produced for a 5-week course to train Oxford students to solve data science consultancy projects, organised by the society <a href="https://www.osgdigitallabs.com">Oxford Strategy Group Digital</a>.</li>
-<li><a href="/orbitalswithouttears">Molecular orbital theory without tears</a>, originally produced as a handout for my tutorials in Physical Biochemistry at St Peter's College.</li>
+<li><a href="/motheory">Molecular orbital theory without tears</a>, originally produced as a handout for my tutorials in Physical Biochemistry at St Peter's College.</li>
 </ul>
 
 </div>
