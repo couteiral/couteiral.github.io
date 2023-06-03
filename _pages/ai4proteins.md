@@ -18,7 +18,7 @@ __Last updated: March 2023__
 9. [Conclusions](#conclusions)
 10. [Bibliography](#bibliography)
 
-<i style="font-size: 16px; line-height: 1.0; font-weight: 50">I started these lecture notes to prepare for lectures in AI for protein structure at the Systems Aproaches to Biological Science Doctoral Training Centre, and at the 58th International School of Crystallography. One thing led to the other and I found myself having written twenty pages of lecture notes and over 100 references. The career-savvy move would have been to publish it as a review, but as I suspect it would have been outdated by the time it was on print, I instead decided to publish it as a blog post that I keep continuously updating. I hope this is useful. If you spot any errors, please contact me.</i>
+<i style="font-size: 16px; line-height: 1.0; font-weight: 50">I started these lecture notes to prepare for lectures in AI for protein structure at the Systems Aproaches to Biological Science Doctoral Training Centre, and at the 58th International School of Crystallography. One thing led to the other and I found myself having written twenty pages of lecture notes and nearly 100 references. The career-savvy move would have been to publish it as a review, but as I suspect it would have been outdated by the time it was on print, I instead decided to publish it as a blog post that I keep continuously updating. I hope this is useful. If you spot any errors, please contact me.</i>
 
 <a name="background"></a>
 ### 1. Background: why do we care about protein structure?
