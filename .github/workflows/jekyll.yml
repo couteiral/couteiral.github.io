@@ -32,19 +32,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@0a29871fe2b0200a17a4497bae54fe5df0d973aa # v1.115.3
+      - name: Set up Ruby 2.6
+        uses: actions/setup-ruby@v1
         with:
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+        ruby-version: 2.6.x
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
-      - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+      - name: Build Jekyll site
+        run: |
+          set -xo pipefail
+          rm -rf _site/*
+          gem install bundler
+          bundle install
+          bundle exec jekyll build
+          cp CNAME _site/CNAME
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
