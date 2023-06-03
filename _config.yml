@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-scholar
     
 # Archives
 jekyll-archives:
@@ -36,6 +37,12 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
+
+# Bibliography
+scholar:
+  style: ./assets/bib/elsevier-harvard.csl
+  source: ./assets/bib/
+  bibliography: references.bib
     
 # Pagination 
 paginate: 6
@@ -51,10 +58,10 @@ kramdown:
     block:
       line_numbers: true
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+# # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+# adsense: "disabled"
+# adsense-data-ad-client: "ca-pub-3412143450191416"
+# adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
