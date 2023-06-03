@@ -3,6 +3,23 @@ layout: page
 title: About me
 ---
 
+<style>
+    /* Styles for larger screens */
+    .img-responsive {
+        max-width: 164px;
+        max-height: 164px;
+        width: auto;
+        height: auto;
+    }
+
+    /* Styles for smaller screens */
+    @media only screen and (max-width: 480px) {
+        .img-responsive {
+            max-width: 100%;
+        }
+    }
+</style>
+
 <div class="row justify-content-between">
     <div class="col-md-8 pr-5 d-flex" style="flex-direction: column;">
     
@@ -13,10 +30,10 @@ title: About me
         <p>My central research interest is the development of artificial intelligence tools for protein engineering and protein design, although I am also generally interested in language models, drug discovery, deep learning for 3D point cloud data, enzymology, and other topics in computational protein science. To read more about my research interests and contributions, check out my <a href="/research">Research page</a>. In this page, I write about the latest developments in biotech and TechBio, and my opinions on the future of the field. Some of my passions outside of science are molecular cuisine, social dancing and strength conditioning, and I occasionally write about these as well.</p>
 
         <div style="display: flex; justify-content: space-around; padding-top: 2em;">
-        <img src="assets/images/university-of-oxford.png" style="max-width: 164px; max-height: 164px; width: auto; height: auto" />
-        <img src="assets/images/spc-logo.jpg" style="max-width: 164px; max-height: 164px; width: auto; height: auto" />
-        <img src="assets/images/schmidt-futures.jpg" style="max-width: 164px; max-height: 164px; width: auto; height: auto" />
-    </div>
+            <img src="assets/images/university-of-oxford.png" class="img-responsive" />
+            <img src="assets/images/spc-logo.jpg" class="img-responsive" />
+            <img src="assets/images/schmidt-futures.jpg" class="img-responsive" />
+        </div>
     
     </div>
     
