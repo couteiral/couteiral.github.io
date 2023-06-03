@@ -28,10 +28,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Set up Ruby 2.7.2
+      - name: Set up Ruby 2.7
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: "2.7.2"
+          ruby-version: "2.7"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
