@@ -2,7 +2,7 @@
 layout: post
 title:  "How large language models are shaping modern protein science"
 author: couteiral
-date:  2021-06-05
+date:  2023-06-28
 categories: [ ai, proteins ]
 tags: []
 image: assets/images/covers/calm-embedding.png
