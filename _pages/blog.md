@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Blog
+permalink: /blog
 ---
-
-{% if page.url == "/blog" %}
 
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
+
     <div class="section-title">
         <h2><span>Featured</span></h2>
     </div>
@@ -25,8 +25,6 @@ title: Blog
 
     </div>
 </section>
-
-{% endif %}
 
 <!-- Posts Index
 ================================================== -->
