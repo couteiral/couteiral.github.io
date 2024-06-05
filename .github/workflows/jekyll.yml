@@ -39,7 +39,7 @@ jobs:
         run: |
           set -xo pipefail
           rm -rf _site/*
-          gem install bundler
+          gem install bundler -v 2.4.22
           bundle install
           JEKYLL_ENV=production bundle exec jekyll build
           cp CNAME _site/CNAME
